@@ -11,5 +11,5 @@ This subset contains 10 tasks covering all seven top-level categories. They run 
 ```bash
 # Set ADAPTER_DIR as described in the data repository README.
 export PYTHONPATH="$ADAPTER_DIR"
-uvx --from harbor==0.23.0 harbor run -c data/penguinharness-benchmark-sec-e/job.yaml --job-name terminal-bench-attempt-1 -y
+uvx --from harbor==0.23.0 harbor run -c penguinharness-benchmark-sec-e/job.yaml --job-name terminal-bench-attempt-1 -y
 ```
